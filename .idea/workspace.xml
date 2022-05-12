@@ -41,16 +41,12 @@
       <change beforePath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/d3/61827181cbd7320cf529759f4388f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d3/61827181cbd7320cf529759f4388f7.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/atlas.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/atlas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/dino.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/tiles.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/tiles.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652361122357</updated>
-      <workItem from="1652361124049" duration="10508000" />
+      <workItem from="1652361124049" duration="10735000" />
     </task>
     <servers />
   </component>
