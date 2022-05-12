@@ -38,8 +38,25 @@
       <change beforePath="$PROJECT_DIR$/../casteaching/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/tests/Feature/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/1d/5e249e84e17be3582c733e1e7959c5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1d/5e249e84e17be3582c733e1e7959c5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/91/036895eba87a10f1ed751b44739c29.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/91/036895eba87a10f1ed751b44739c29.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b6/646e390a3557a06935a8e9e0377a7f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b6/646e390a3557a06935a8e9e0377a7f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/e2/41b25c11796e741079196cf099d3c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e2/41b25c11796e741079196cf099d3c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dino.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dino.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Cactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cactus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Star.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Star.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/score.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +90,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.34" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Baixades/dinosaur-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Baixades/dinosaur-master" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -120,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652361122357</updated>
-      <workItem from="1652361124049" duration="7647000" />
+      <workItem from="1652361124049" duration="8084000" />
     </task>
     <servers />
   </component>

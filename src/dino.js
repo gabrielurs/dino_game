@@ -1,51 +1,57 @@
-import generateAnimations from './animations/index';
-import Player from './objects/Player';
-import {showScore} from './ui/score';
-import {hidePressToPlay, hideGameOver} from './ui/gameState';
-import Star from "./objects/Star";
-import Cactus from "./objects/Cactus";
+import Player from './objects/Player'
+import Cactus from './objects/Cactus'
+import Star from './objects/Star'
 
-class Dino extends Phaser.Scene{
+import { showScore, resetScore } from './ui/score'
+import { hidePressToPlay, hideGameOver } from './ui/gameState'
+
+import generateAnimations from './animations/index'
+
+class Dino extends Phaser.Scene {
+
     constructor() {
         super('Dino');
 
         this.state = {
-            started: false,
-            gameOver: false,
-            UIUpdated: false,
-            numberOfStars: 3,
-            cactuses: [],
-            cactusDistance: 2000,
+            score: 0,
+            highScore: 0,
             speed: 1,
+            started: false,
+            UIUpdated: false,
+            gameOver: false,
+            cactuses: [],
+            numberOfStars: 3,
+            cactusDistance: 2000,
             timer: {
                 speedLoop: 0,
                 cactusSpawnLoop: 0
-            },
-            score: 0,
-            highScore: 0
+            }
         };
     }
 
-    preload(){
-        this.load.spritesheet('tiles', './assets/tiles.png',{frameWidth: 16,frameHeight: 16});
-        this.load.atlas('atlas','./assets/atlas.png', './assets/atlas.json');
+    preload() {
+        this.load.spritesheet('tiles', './assets/tiles.png', { frameWidth: 16, frameHeight: 16 });
+        this.load.atlas('atlas', './assets/atlas.png', './assets/atlas.json');
 
-        this.load.on('complete', ()=>{
-           generateAnimations(this);
+        this.load.on('complete', () => {
+            generateAnimations(this);
         });
     }
 
-    create(){
+    create() {
         this.player = new Player(this, 25, 460);
-        for(let index = 0; index < this.state.numberOfStars; index++){
+
+        for (let index = 0; index < this.state.numberOfStars; index++) {
             new Star(this);
         }
 
         this.inputs = this.input.keyboard.createCursorKeys();
     }
 
-    update(time, delta){
-        this.state.timer.speedLoop +=delta;
+    update(time, delta) {
+        this.state.timer.speedLoop += delta;
+        this.state.timer.cactusSpawnLoop += delta;
+
         if (this.inputs.space.isDown && !this.state.started && !this.state.gameOver) {
             this.state.started = true;
         }
@@ -63,18 +69,18 @@ class Dino extends Phaser.Scene{
                 this.state.timer.cactusSpawnLoop = 0;
             }
 
-            if(this.state.timer.speedLoop>10000){
+            if (this.state.timer.speedLoop > 10000) {
                 this.state.timer.speedLoop = 0;
                 this.state.speed += .25;
             }
+        }
 
-            if (this.state.gameOver){
-                this.state.cactuses.forEach(cactus => cactus.stop());
-            }
+        if (this.state.gameOver) {
+            this.state.cactuses.forEach(cactus => cactus.stop());
+        }
 
-            if (this.inputs.space.isDown && this.state.gameOver){
-                this.restartGame();
-            }
+        if (this.inputs.space.isDown && this.state.gameOver) {
+            this.restartGame();
         }
     }
 

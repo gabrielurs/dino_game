@@ -1,4 +1,4 @@
-class Star{
+class Star {
     constructor(scene) {
         const randomSprite = Math.floor(Math.random() * 2);
         const randomXPosition = Math.floor(Math.random() * 620) + 20;
