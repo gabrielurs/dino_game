@@ -2,8 +2,8 @@ import Phaser from "phaser";
 import Dino from "./dino.js"
 
 const config = {
-    width: 640,
-    height: 480,
+    width: 1280,
+    height: 960,
     parent: 'dino',
     backgroundColor: '#202124',
     title: 'Dino',
