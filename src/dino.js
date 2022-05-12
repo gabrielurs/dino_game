@@ -2,6 +2,8 @@ import generateAnimations from './animations/index';
 import Player from './objects/Player';
 import {showScore} from './ui/score';
 import {hidePressToPlay, hideGameOver} from './ui/gameState';
+import Star from "./objects/Star";
+import Cactus from "./objects/Cactus";
 
 class Dino extends Phaser.Scene{
     constructor() {
@@ -10,7 +12,13 @@ class Dino extends Phaser.Scene{
         this.state = {
             started: false,
             gameOver: false,
-            UIUpdated: false
+            UIUpdated: false,
+            numberOfStars: 3,
+            cactuses : [],
+            cactusDistance: 2000,
+            timer: {
+                cactusSpawnLoop: 0
+            }
         };
     }
 
@@ -25,10 +33,14 @@ class Dino extends Phaser.Scene{
 
     create(){
         this.player = new Player(this, 25, 460);
+        for(let index = 0; index < this.state.numberOfStars; index++){
+            new Star(this);
+        }
+
         this.inputs = this.input.keyboard.createCursorKeys();
     }
 
-    update(){
+    update(time, delta){
 
         if (this.inputs.space.isDown && !this.state.started && !this.state.gameOver) {
             this.state.started = true;
@@ -39,6 +51,12 @@ class Dino extends Phaser.Scene{
 
             if(!this.state.UIUpdated){
                 this.updateUI();
+
+                if (this.state.timer.cactusSpawnLoop > this.state.cactusDistance) {
+                    this.state.cactusDistance = Phaser.Math.Between(5000, 1000);
+                    this.state.cactuses.push(new Cactus(this));
+                    this.state.timer.cactusSpawnLoop = 0;
+                }
             }
         }
     }
