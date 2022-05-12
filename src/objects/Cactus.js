@@ -1,9 +1,9 @@
 class Cactus{
     constructor(scene) {
         this.scene = scene;
-        this.sprite = scene.physics.add.sprite(700,470,'tiles', 2)
+        this.sprite = scene.physics.add.sprite(700, 470, 'tiles', 2)
             .setScale(2)
-            .setSize(5,15)
+            .setSize(5, 15)
             .setCollideWorldBounds(true);
 
         this.sprite.body.customBoundsRectangle.left = -100;
@@ -14,6 +14,14 @@ class Cactus{
 
     update() {
         this.sprite.setVelocityX(-150);
+    }
+
+    gameOver(){
+        this.scene.player.die();
+    }
+
+    stop(){
+        this.sprite.setVelocityX(0);
     }
 }
 

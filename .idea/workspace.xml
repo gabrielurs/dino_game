@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7e8269-bbca-4445-a380-e9045b8ad00b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objects/Cactus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/README.md" afterDir="false" />
@@ -39,13 +38,19 @@
       <change beforePath="$PROJECT_DIR$/../casteaching/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/tests/Feature/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/1d/5e249e84e17be3582c733e1e7959c5.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1d/5e249e84e17be3582c733e1e7959c5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dino.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dino.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Cactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cactus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/score.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652361122357</updated>
-      <workItem from="1652361124049" duration="5513000" />
+      <workItem from="1652361124049" duration="7051000" />
     </task>
     <servers />
   </component>

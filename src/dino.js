@@ -14,11 +14,15 @@ class Dino extends Phaser.Scene{
             gameOver: false,
             UIUpdated: false,
             numberOfStars: 3,
-            cactuses : [],
+            cactuses: [],
             cactusDistance: 2000,
+            speed: 1,
             timer: {
+                speedLoop: 0,
                 cactusSpawnLoop: 0
-            }
+            },
+            score: 0,
+            highScore: 0
         };
     }
 
@@ -41,22 +45,31 @@ class Dino extends Phaser.Scene{
     }
 
     update(time, delta){
-
+        this.state.timer.speedLoop +=delta;
         if (this.inputs.space.isDown && !this.state.started && !this.state.gameOver) {
             this.state.started = true;
         }
 
-        if(this.state.started){
+        if (this.state.started) {
             this.player.update(this.inputs, delta);
 
-            if(!this.state.UIUpdated){
+            if (!this.state.UIUpdated) {
                 this.updateUI();
+            }
 
-                if (this.state.timer.cactusSpawnLoop > this.state.cactusDistance) {
-                    this.state.cactusDistance = Phaser.Math.Between(5000, 1000);
-                    this.state.cactuses.push(new Cactus(this));
-                    this.state.timer.cactusSpawnLoop = 0;
-                }
+            if (this.state.timer.cactusSpawnLoop > this.state.cactusDistance) {
+                this.state.cactusDistance = Phaser.Math.Between(5000 / this.state.speed, 1000 / this.state.speed);
+                this.state.cactuses.push(new Cactus(this));
+                this.state.timer.cactusSpawnLoop = 0;
+            }
+
+            if(this.state.timer.speedLoop>10000){
+                this.state.timer.speedLoop = 0;
+                this.state.speed += .25;
+            }
+
+            if (this.state.gameOver){
+                this.state.cactuses.forEach(cactus => cactus.stop());
             }
         }
     }
@@ -64,9 +77,7 @@ class Dino extends Phaser.Scene{
     updateUI() {
         hidePressToPlay();
         hideGameOver();
-
         showScore();
-
         this.state.UIUpdated = true;
     }
 }
