@@ -71,6 +71,10 @@ class Dino extends Phaser.Scene{
             if (this.state.gameOver){
                 this.state.cactuses.forEach(cactus => cactus.stop());
             }
+
+            if (this.inputs.space.isDown && this.state.gameOver){
+                this.restartGame();
+            }
         }
     }
 
@@ -79,6 +83,18 @@ class Dino extends Phaser.Scene{
         hideGameOver();
         showScore();
         this.state.UIUpdated = true;
+    }
+
+    restartGame() {
+        hideGameOver();
+        resetScore(this.state);
+        this.state.started = true;
+        this.state.gameOver = false;
+        this.state.speed = 1;
+        this.state.cactuses.forEach(cactus => cactus.sprite.destroy());
+        this.state.cactuses = [];
+
+        this.player.isDead = false;
     }
 }
 export default Dino;
