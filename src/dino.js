@@ -15,7 +15,7 @@ class Dino extends Phaser.Scene {
         this.state = {
             score: 0,
             highScore: 0,
-            speed: 1,
+            speed: 1.5,
             started: false,
             UIUpdated: false,
             gameOver: false,
@@ -71,7 +71,7 @@ class Dino extends Phaser.Scene {
 
             if (this.state.timer.speedLoop > 10000) {
                 this.state.timer.speedLoop = 0;
-                this.state.speed += .25;
+                this.state.speed += .50;
             }
         }
 
@@ -96,7 +96,7 @@ class Dino extends Phaser.Scene {
         resetScore(this.state);
         this.state.started = true;
         this.state.gameOver = false;
-        this.state.speed = 1;
+        this.state.speed = 1.5;
         this.state.cactuses.forEach(cactus => cactus.sprite.destroy());
         this.state.cactuses = [];
 

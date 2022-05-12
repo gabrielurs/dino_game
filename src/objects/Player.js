@@ -12,7 +12,7 @@ class Player {
         this.timer = 0;
 
         this.sprite = scene.physics.add.sprite(x, y, 'atlas')
-            .setScale(2)
+            .setScale(4)
             .setImmovable()
             .setCollideWorldBounds();
 
@@ -29,7 +29,7 @@ class Player {
         }
 
         if ((input.space.isDown && this.sprite.body.onFloor())) {
-            this.sprite.setVelocityY(-500);
+            this.sprite.setVelocityY(-650);
             this.sprite.play('idle', true);
         }
 

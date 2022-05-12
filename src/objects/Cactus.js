@@ -2,7 +2,7 @@ class Cactus {
     constructor(scene) {
         this.scene = scene;
         this.sprite = scene.physics.add.sprite(1300, 980, 'tiles', 2)
-            .setScale(2)
+            .setScale(4)
             .setSize(5, 15)
             .setCollideWorldBounds(true);
 
