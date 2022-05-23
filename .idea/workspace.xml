@@ -39,16 +39,19 @@
       <change beforePath="$PROJECT_DIR$/../casteaching/tests/Feature/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/51/a0fcf2bd3af362d5f832496da6373b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/55/7e8556d2969732a438323f61cabb87.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e4/5356f4b21b6c4694fab0995577d27a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dino.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dino.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Cactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Cactus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/atlas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/atlas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/tiles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +82,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="XML" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.34" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -93,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Documents" />
       <recent name="$PROJECT_DIR$/build/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -130,7 +135,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652361122357</updated>
-      <workItem from="1652361124049" duration="11718000" />
+      <workItem from="1652361124049" duration="15937000" />
+      <workItem from="1652792990280" duration="4000" />
+      <workItem from="1652977202912" duration="9534000" />
+      <workItem from="1653061637995" duration="2372000" />
+      <workItem from="1653070316108" duration="56000" />
+      <workItem from="1653131956859" duration="883000" />
+      <workItem from="1653311322820" duration="702000" />
+      <workItem from="1653323868741" duration="1082000" />
     </task>
     <servers />
   </component>
@@ -147,5 +159,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

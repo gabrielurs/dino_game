@@ -12,6 +12,13 @@
     position: absolute;
 }
 
+#textAuthor {
+    color: #ff2f57;
+    vertical-align: top;
+    text-align: left;
+
+}
+
 .hidden {
     display: none;
 }
@@ -52,5 +59,7 @@
     margin-top: 8px;
     font-size: 18px;
 }
+
+
 
 /*# sourceMappingURL=/css.8cc31322.css.map */
