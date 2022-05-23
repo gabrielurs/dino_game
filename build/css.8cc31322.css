@@ -11,7 +11,10 @@
 #dino > div {
     position: absolute;
 }
-
+a{
+    color: #ff2f57;
+    text-decoration: none;
+}
 #textAuthor {
     color: #ff2f57;
     vertical-align: top;

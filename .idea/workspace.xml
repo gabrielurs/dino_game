@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7e8269-bbca-4445-a380-e9045b8ad00b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/README.md" afterDir="false" />
@@ -39,7 +38,16 @@
       <change beforePath="$PROJECT_DIR$/../casteaching/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/tests/Feature/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../casteaching/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casteaching/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/1f/90787bfe1d8ce728499825fe771d5f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css.8cc31322.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/css.8cc31322.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src.a2b27638.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src.a2b27638.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +138,7 @@
       <workItem from="1653070316108" duration="56000" />
       <workItem from="1653131956859" duration="883000" />
       <workItem from="1653311322820" duration="702000" />
-      <workItem from="1653323868741" duration="1671000" />
+      <workItem from="1653323868741" duration="2154000" />
     </task>
     <servers />
   </component>
